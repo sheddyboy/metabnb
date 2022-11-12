@@ -1,0 +1,32 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 43px;
+}
+
+.nav_links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 48px;
+}
+
+.nav_links a {
+  text-decoration: none;
+}
+.nav button {
+  background: linear-gradient(90deg, #a02279 11.45%, #a02279 11.45%);
+  border-radius: 10px;
+  border: none;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+
+  padding: 15px 26px 13px 27px;
+
+  cursor: pointer;
+}
