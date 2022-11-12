@@ -1,0 +1,102 @@
+.section {
+  padding-top: 125px;
+  padding-bottom: 67px;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  max-width: 646px;
+}
+
+.content h1 {
+  font-family: "Red Rose";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 140%;
+  letter-spacing: -0.02em;
+  color: #434343;
+}
+
+.content span {
+  font-weight: 700;
+  background: linear-gradient(90deg, #a02279 11.45%, #a02279 11.46%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+.content p {
+  font-family: "Red Rose";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 35px;
+  color: #434343;
+}
+
+.content form {
+  display: flex;
+}
+
+.content form input {
+  background: rgba(247, 247, 247, 0.1);
+  border: 1px solid #a3a3a3;
+  border-radius: 8px 0px 0px 8px;
+  flex: auto;
+  padding: 18.92px 15px 20.08px 15px;
+}
+
+.content form input::placeholder {
+  font-family: "Red Rose";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 130%;
+  color: #b8b8b8;
+}
+
+.content form button {
+  font-family: "Red Rose";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+
+  padding: 17px 87px 17px 87px;
+  background: linear-gradient(90deg, #a02279 11.45%, #a02279 11.46%);
+  border-radius: 0px 8px 8px 0px;
+  border: none;
+  cursor: pointer;
+}
+
+.images {
+  display: flex;
+  gap: 8px;
+}
+
+.images img {
+  max-width: 234px;
+}
+
+.images .left {
+  margin-top: 99px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.images .right {
+  margin-bottom: 99px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
