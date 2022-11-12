@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* :root {
+  --purple: "linear-gradient(90deg, #A02279 11.45%, #A02279 11.46%)";
+  --white: "linear-gradient(124.4deg, #FFFFFF 10.8%, #FFFFFF 87.34%)";
+  --black: "#434343";
+} */
+
+body {
+  font-family: "Red Rose", cursive;
+}
+
+.container {
+  max-width: 1240px;
+  margin-left: auto;
+  margin-right: auto;
+}
