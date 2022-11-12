@@ -1,0 +1,44 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  background: linear-gradient(124.4deg, #ffffff 10.8%, #ffffff 87.34%);
+  border: 1px solid #d7d7d7;
+  border-radius: 15px;
+  padding: 16px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.content div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card {
+  cursor: pointer;
+}
+
+.content div p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 13px;
+  color: #434343;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.content div span {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 13px;
+  color: #434343;
+}
