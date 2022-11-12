@@ -1,0 +1,11 @@
+.section {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background: linear-gradient(90deg, #a02279 11.45%, #a02279 11.45%);
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
