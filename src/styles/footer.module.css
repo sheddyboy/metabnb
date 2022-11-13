@@ -88,6 +88,10 @@
     gap: 30px;
   }
 
+  .logo {
+    margin-bottom: 30px;
+  }
+
   .right {
     gap: 0;
     justify-content: space-between;
