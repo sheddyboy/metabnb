@@ -1,0 +1,18 @@
+export const nfts = [
+  { image: "/nft_1.svg", id: "1" },
+  { image: "/nft_2.svg", id: "2" },
+  { image: "/nft_3.svg", id: "3" },
+  { image: "/nft_4.svg", id: "4" },
+  { image: "/nft_5.svg", id: "5" },
+  { image: "/nft_6.svg", id: "6" },
+  { image: "/nft_7.svg", id: "7" },
+  { image: "/nft_8.svg", id: "8" },
+  { image: "/nft_9.svg", id: "9" },
+  { image: "/nft_10.svg", id: "10" },
+  { image: "/nft_11.svg", id: "11" },
+  { image: "/nft_12.svg", id: "12" },
+  { image: "/nft_13.svg", id: "13" },
+  { image: "/nft_14.svg", id: "14" },
+  { image: "/nft_15.svg", id: "15" },
+  { image: "/nft_16.svg", id: "16" },
+];
