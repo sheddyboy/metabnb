@@ -5,15 +5,19 @@
 
 .sort {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
-  gap: 65px;
+  column-gap: 65px;
+  row-gap: 25px;
   margin-bottom: 64px;
 }
 
 .sortLinks {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
-  gap: 48px;
+  column-gap: 48px;
+  row-gap: 25px;
 }
 
 .sortLinks a {
@@ -49,5 +53,27 @@
 .nfts {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  gap: 24px;
+  gap: 20px;
+}
+
+@media (max-width: 1372px) {
+  .nfts {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+@media (max-width: 1024px) {
+  .nfts {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 700px) {
+  .nfts {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 500px) {
+  .section {
+    padding-top: 50px;
+  }
 }
