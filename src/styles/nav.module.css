@@ -1,8 +1,12 @@
 .nav {
+  padding-top: 43px;
+}
+
+.wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 43px;
+  position: relative;
 }
 
 .nav_links {
@@ -12,7 +16,8 @@
   gap: 48px;
 }
 
-.nav_links a {
+.nav_links a,
+.mobileNav a {
   text-decoration: none;
   font-family: "Red Rose";
   font-style: normal;
@@ -21,7 +26,8 @@
   line-height: 25px;
   color: #434343;
 }
-.nav button {
+.btn,
+.mobileBtn {
   background: linear-gradient(90deg, #a02279 11.45%, #a02279 11.45%);
   border-radius: 10px;
   border: none;
@@ -37,12 +43,71 @@
   cursor: pointer;
 }
 
+.hamMenu {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  cursor: pointer;
+  display: none;
+  position: relative;
+  z-index: 1;
+}
+
+.hamMenu div {
+  width: 24px;
+  height: 2px;
+  background-color: black;
+}
+
+.mobileNav {
+  position: fixed;
+  right: 0;
+  top: 0%;
+  left: 0%;
+  right: 0%;
+  bottom: 0%;
+  padding: 81px 20px 20px 20px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  display: none;
+}
+
+.mobileNavLinks {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  position: relative;
+  z-index: 2;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 6px;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
 @media (max-width: 1050px) {
   .nav_links {
     display: none;
   }
 
-  .nav button {
+  .btn {
     display: none;
+  }
+
+  .hamMenu {
+    display: flex;
+  }
+
+  .mobileNav {
+    display: flex;
   }
 }
