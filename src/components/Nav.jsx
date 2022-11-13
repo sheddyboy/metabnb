@@ -1,17 +1,21 @@
-import React from "react";
+import React, { useContext } from "react";
 import styles from "../styles/nav.module.css";
+import { Link } from "react-router-dom";
+import { ModalCtx } from "../contexts/ModalContex";
 
 const Nav = () => {
+  const { toggleModal } = useContext(ModalCtx);
+
   return (
     <nav className={styles.nav + " container"}>
       <img src="/nav_logo.svg" alt="logo" />
       <div className={styles.nav_links}>
-        <a href="/">Home</a>
-        <a href="/">Place to stay</a>
-        <a href="/">NFTs</a>
-        <a href="/">Community</a>
+        <Link to="/">Home</Link>
+        <Link to="/">Place to stay</Link>
+        <Link to="/nfts">NFTs</Link>
+        <Link to="/">Community</Link>
       </div>
-      <button>Connect wallet</button>
+      <button onClick={toggleModal}>Connect wallet</button>
     </nav>
   );
 };
