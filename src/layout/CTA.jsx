@@ -18,7 +18,7 @@ const CTA = () => {
             </button>
           </div>
           <div className={styles.image}>
-            <img src="/cta_image.svg" alt="cta" />
+            <img src="/cta_image.png" alt="cta" />
           </div>
         </div>
       </div>
