@@ -74,3 +74,25 @@
   background-clip: text;
   /* text-fill-color: transparent; */
 }
+
+.wrapper .image img {
+  width: 100%;
+}
+
+@media (max-width: 1110px) {
+  .wrapper {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .wrapper .content {
+    max-width: 900px;
+  }
+}
+
+@media (max-width: 500px) {
+  .wrapper .content h2 {
+    font-size: 30px;
+    margin-bottom: 0px;
+  }
+}

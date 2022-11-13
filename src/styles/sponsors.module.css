@@ -9,3 +9,10 @@
   justify-content: space-between;
   align-items: center;
 }
+
+@media (max-width: 750px) {
+  .wrapper {
+    flex-direction: column;
+    gap: 30px;
+  }
+}

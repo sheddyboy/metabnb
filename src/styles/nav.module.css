@@ -36,3 +36,13 @@
 
   cursor: pointer;
 }
+
+@media (max-width: 1050px) {
+  .nav_links {
+    display: none;
+  }
+
+  .nav button {
+    display: none;
+  }
+}

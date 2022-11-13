@@ -6,7 +6,7 @@
 
 .wrapper {
   display: flex;
-  gap: 187px;
+  justify-content: space-between;
 }
 
 .left {
@@ -74,4 +74,22 @@
   font-size: 14px;
   line-height: 19px;
   color: #f1f3f9;
+}
+
+@media (max-width: 1235px) {
+  .right {
+    gap: 50px;
+  }
+}
+
+@media (max-width: 750px) {
+  .wrapper {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .right {
+    gap: 0;
+    justify-content: space-between;
+  }
 }
