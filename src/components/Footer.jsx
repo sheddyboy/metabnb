@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "../styles/footer.module.css";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -24,28 +25,28 @@ const Footer = () => {
             <div className={styles.footerLinks}>
               <h4>Community</h4>
               <div className={styles.footerLinkWrapper}>
-                <a href="/">NFT</a>
-                <a href="/">Tokens</a>
-                <a href="/">Landlords</a>
-                <a href="/">Discord</a>
+                <Link to="/nfts">NFT</Link>
+                <Link to="/">Tokens</Link>
+                <Link to="/">Landlords</Link>
+                <Link to="/">Discord</Link>
               </div>
             </div>
             <div className={styles.footerLinks}>
               <h4>Places</h4>
               <div className={styles.footerLinkWrapper}>
-                <a href="/">Castle</a>
-                <a href="/">Farms </a>
-                <a href="/">Beach</a>
-                <a href="/">Learn more</a>
+                <Link to="/">Castle</Link>
+                <Link to="/">Farms </Link>
+                <Link to="/">Beach</Link>
+                <Link to="/">Learn more</Link>
               </div>
             </div>
             <div className={styles.footerLinks}>
               <h4>About us</h4>
               <div className={styles.footerLinkWrapper}>
-                <a href="/">Road map</a>
-                <a href="/">Creators </a>
-                <a href="/">Career</a>
-                <a href="/">Contact us</a>
+                <Link to="/">Road map</Link>
+                <Link to="/">Creators </Link>
+                <Link to="/">Career</Link>
+                <Link to="/">Contact us</Link>
               </div>
             </div>
           </div>
