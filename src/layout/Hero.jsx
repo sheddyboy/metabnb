@@ -9,7 +9,7 @@ const Hero = () => {
           <div className={styles.content}>
             <h1>
               Rent a <span>Place</span> away from <span>Home</span> in the
-              <span>Metaverse</span>
+              <span> Metaverse</span>
             </h1>
             <p>
               we provide you access to luxury and affordable houses in the
