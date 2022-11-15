@@ -5,7 +5,7 @@ import styles from "../styles/overview.module.css";
 
 const Overview = () => {
   return (
-    <section className={styles.section}>
+    <section id="nfts" className={styles.section}>
       <div className="container">
         <h2>Inspiration for your next adventure</h2>
         <div className={styles.grid}>

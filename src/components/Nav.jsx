@@ -15,8 +15,8 @@ const Nav = () => {
           <div className={styles.nav_links}>
             <Link to="/">Home</Link>
             <Link to="/place-to-stay">Place to stay</Link>
-            <Link to="/">NFTs</Link>
-            <Link to="/">Community</Link>
+            <a href="#nfts">NFTs</a>
+            <a href="#community">Community</a>
           </div>
           <button className={styles.btn} onClick={toggleModal}>
             Connect wallet
@@ -36,8 +36,8 @@ const Nav = () => {
               <div className={styles.mobileNavLinks}>
                 <Link to="/">Home</Link>
                 <Link to="/place-to-stay">Place to stay</Link>
-                <Link to="/">NFTs</Link>
-                <Link to="/">Community</Link>
+                <a href="#nfts">NFTs</a>
+                <a href="#community">Community</a>
                 <button className={styles.mobileBtn} onClick={toggleModal}>
                   Connect wallet
                 </button>

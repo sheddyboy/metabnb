@@ -9,6 +9,10 @@
   --black: "#434343";
 } */
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Red Rose", cursive;
 }

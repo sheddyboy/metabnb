@@ -3,7 +3,7 @@ import styles from "../styles/cta.module.css";
 
 const CTA = () => {
   return (
-    <section className={styles.section}>
+    <section id="community" className={styles.section}>
       <div className="container">
         <div className={styles.wrapper}>
           <div className={styles.content}>
