@@ -6,7 +6,7 @@ import { nfts } from "../nfts";
 import Card from "../components/Card";
 import { Link } from "react-router-dom";
 
-const Nfts = () => {
+const PlaceToStay = () => {
   return (
     <>
       <Nav />
@@ -42,4 +42,4 @@ const Nfts = () => {
   );
 };
 
-export default Nfts;
+export default PlaceToStay;

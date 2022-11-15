@@ -4,7 +4,7 @@ import App from "./App";
 import "../src/styles/global.css";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Nfts from "./pages/Nfts";
+import PlaceToStay from "./pages/PlaceToStay";
 import ModalContex from "./contexts/ModalContex";
 import Modal from "./components/Modal";
 
@@ -16,7 +16,7 @@ root.render(
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<App />} />
-          <Route path="/nfts" element={<Nfts />} />
+          <Route path="/place-to-stay" element={<PlaceToStay />} />
         </Routes>
       </BrowserRouter>
     </ModalContex>

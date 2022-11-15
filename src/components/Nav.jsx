@@ -14,8 +14,8 @@ const Nav = () => {
           <img src="/nav_logo.svg" alt="logo" />
           <div className={styles.nav_links}>
             <Link to="/">Home</Link>
-            <Link to="/">Place to stay</Link>
-            <Link to="/nfts">NFTs</Link>
+            <Link to="/place-to-stay">Place to stay</Link>
+            <Link to="/">NFTs</Link>
             <Link to="/">Community</Link>
           </div>
           <button className={styles.btn} onClick={toggleModal}>
@@ -35,8 +35,8 @@ const Nav = () => {
             <div className={styles.mobileNav}>
               <div className={styles.mobileNavLinks}>
                 <Link to="/">Home</Link>
-                <Link to="/">Place to stay</Link>
-                <Link to="/nfts">NFTs</Link>
+                <Link to="/place-to-stay">Place to stay</Link>
+                <Link to="/">NFTs</Link>
                 <Link to="/">Community</Link>
                 <button className={styles.mobileBtn} onClick={toggleModal}>
                   Connect wallet
